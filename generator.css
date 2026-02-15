@@ -1,0 +1,129 @@
+@font-face{
+    font-family: robot;
+    src: url("robot.ttf");
+}
+
+body{
+    font-family: robot;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction:column;
+    padding-left: 10%;
+    background-color:#121111;
+    color: white;
+}
+
+.mix1{
+    font-size: 48px;
+    margin-right: 10px;
+}
+.mix2{
+    
+    color: lightseagreen;
+    font-size: 48px;
+    margin-top: -40px;
+}
+
+.small-tag{
+    font-size: 16px;
+    margin-top: -30px;
+
+}
+
+.g1{
+    background-color:#282523;
+    width: 500px;
+    height: 30px;
+    border-radius: 4px;
+    padding-top:8px;
+}
+#g2{
+    margin-left: 50px;
+}
+
+button{
+    font-family: inherit;
+    width:100px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+
+.design1{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: lightseagreen;
+    padding: 4px 9px;
+    
+}
+.design2{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: lightseagreen;
+    padding: 4px 9px;
+    margin: 0px 0px;
+    
+}
+.generator{
+    width: 160px;
+    background-color: lightseagreen;
+    color: white;
+    height: 40px;
+    width: 180px;
+    padding:5px  10px;
+    margin-top: 0px;
+    
+}
+
+.size{
+    padding:9px;
+    width: 40px;
+    height: 10px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    border: 2px solid white;
+    font-size: 13px;
+    margin-top: 80px;
+   
+    
+    
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: white;
+  opacity: 0.5;
+  
+}
+
+.password{
+    display: flex;
+    justify-content: space-around;
+margin-top: 40px;
+    
+}
+
+.active1{
+    border: 2px solid white;
+    background-color: aqua;
+    padding-right: 80px;
+    padding-bottom: 23px;
+    font-weight: bold;
+   
+}
+
+.active2{
+    border: 4px solid white;
+    background-color: aqua;
+   padding-bottom: 23px;
+   padding-left: 8px;
+   padding-right: 10px;
+   font-weight: bold;
+   
+}
